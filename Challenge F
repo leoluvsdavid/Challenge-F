@@ -1,0 +1,16 @@
+use_synth :piano
+l=0.1
+a= 21
+d=108
+play a
+
+89.times do
+  a=a+1
+  play(a)
+  sleep l
+end
+89.times do
+  d=d-1
+  play (d)
+  sleep l
+end
